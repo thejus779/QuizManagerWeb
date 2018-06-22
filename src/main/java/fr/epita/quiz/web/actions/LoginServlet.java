@@ -18,8 +18,12 @@ import fr.epita.quiz.services.LoginDAO;
 import fr.epita.quiz.services.QuestionDAO;
 import fr.epita.quiz.web.constants.Constants;
 
+
 /**
- * Servlet implementation class Login
+ * This class is Servlet implementation class Login
+ *
+ * @author  THEJUS
+ *
  */
 
 @WebServlet(urlPatterns = {"/login","/register"})

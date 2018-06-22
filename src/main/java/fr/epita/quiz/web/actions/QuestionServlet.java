@@ -20,6 +20,13 @@ import fr.epita.quiz.services.MCQChoiceDAO;
 import fr.epita.quiz.services.QuestionDAO;
 import fr.epita.quiz.web.constants.Constants;
 
+/**
+ * This class is Servlet implementation class for Question
+ *
+ * @author  THEJUS
+ *
+ */
+
 @WebServlet(urlPatterns = { "/create", "/update", "/delete", "/search", "/redirectToHome", "/createNew",
 		"/redirectToUpdateQuestion", "/updateQuestion","/view","/searchByString" })
 public class QuestionServlet extends SpringServlet {

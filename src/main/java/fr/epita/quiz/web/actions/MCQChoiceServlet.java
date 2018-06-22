@@ -25,7 +25,9 @@ import fr.epita.quiz.services.QuestionDAO;
 import fr.epita.quiz.web.constants.Constants;
 
 /**
- * @author shine
+ * This class is Servlet implementation class MCQChoices
+ *
+ * @author  THEJUS
  *
  */
 @WebServlet(urlPatterns = { "/mcqCreate", "/mcqSearch", "/mcqUpdate", "/mcqDelete", "/redirectToUpdateMCQ",

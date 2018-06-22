@@ -1,3 +1,5 @@
+/*//////////////////////////////////////////////////////////////////
+//[ FRONT-END SAURABH ]*/
 $(document).ready(function() {
     $('.login100-form').hide();
 

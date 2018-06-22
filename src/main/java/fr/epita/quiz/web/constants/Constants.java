@@ -1,5 +1,12 @@
 package fr.epita.quiz.web.constants;
 
+/**
+ * This class contains all the string constants
+ *
+ * @author  THEJUS
+ *
+ */
+
 public class Constants {
 	/** The constant for login */
 	public static final String LOGIN = "login";

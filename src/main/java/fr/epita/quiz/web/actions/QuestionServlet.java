@@ -106,6 +106,24 @@ public class QuestionServlet extends SpringServlet {
 			req.setAttribute(Constants.QUESTIN_LIST_UNIQUE_SET_ATTRIBUTE, questionDAO.fetchAllQuestions());
 			RequestDispatcher rd = getServletContext().getRequestDispatcher(Constants.HOME_PAGE);
 			rd.forward(req, resp);
+			
+			
+			
+		/*	int page = 1;
+            int recordsPerPage = 5;
+            if(req.getParameter("page") != null)
+                page = Integer.parseInt(req.getParameter("page"));
+            List<Question> totalList = questionDAO.fetchAllQuestions();
+            List<Question> list = questionDAO.viewAllEmployees((page-1)*recordsPerPage,
+                                     recordsPerPage);
+            int noOfRecords = totalList.size();
+            int noOfPages = (int) Math.ceil(noOfRecords * 1.0 / recordsPerPage);
+            req.setAttribute(Constants.QUESTIN_LIST_UNIQUE_SET_ATTRIBUTE, list);
+            req.setAttribute(Constants.NUMBER_OF_PAGES, noOfPages);
+            req.setAttribute(Constants.CURRENT_PAGE, page);
+            RequestDispatcher view = req.getRequestDispatcher("employee.jsp");
+            view.forward(req, resp); */
+			
 
 		} else if (req.getRequestURI().contains(Constants.CREATE_QST_PAGE)) {
 			try {

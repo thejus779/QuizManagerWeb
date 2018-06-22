@@ -35,6 +35,10 @@ public class Constants {
 	/** The constant  pattern to redirect to display MCQ */
 	public static final String DISPLAY_MCQ_PAGE = "viewMcq";
 
+	/** The constant  pattern to redirect to display MCQ */
+	public static final String DISPLAY_TAKE_TEST = "takeTest";
+	
+
 	/** The constant  pattern to redirect to update question page */
 	public static final String UPDATE_QST_PAGE = "/updateqst.jsp";
 	
@@ -72,6 +76,12 @@ public class Constants {
 	/** The constant for unique question list set attribute */
 	public static final String QUESTIN_LIST_UNIQUE_SET_ATTRIBUTE = "test_attribute";
 	
+	/** The constant for unique question list set attribute */
+	public static final String NUMBER_OF_PAGES = "noOfPages";
+	
+	/** The constant for unique question list set attribute */
+	public static final String CURRENT_PAGE = "currentPage";
+	
 	/** The constant for unique mcq get attribute */
 	public static final String MCQ_UNIQUE_SET_ATTRIBUTE = "mcq_update_attribute";
 
@@ -83,6 +93,9 @@ public class Constants {
 	
 	/** The constant for unique mcq get attribute */
 	public static final String MCQ_CHOICE_UNIQUE_SET_ATTRIBUTE = "test_attribute_choices";
+	
+	/** The constant for unique map to display the quiz  */
+	public static final String MCQ_TEST_UNIQUE_SET_ATTRIBUTE = "test_attribute_choices";
 	
 	/** The constant for url to update quiz page */
 	public static final String UPDATE_QUIZ_PAGE = "/updatemcq.jsp";

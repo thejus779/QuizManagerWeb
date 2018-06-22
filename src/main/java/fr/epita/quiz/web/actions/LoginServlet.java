@@ -13,7 +13,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import fr.epita.quiz.datamodel.Login;
-import fr.epita.quiz.datamodel.Question;
 import fr.epita.quiz.services.AuthenticationService;
 import fr.epita.quiz.services.LoginDAO;
 import fr.epita.quiz.services.QuestionDAO;
